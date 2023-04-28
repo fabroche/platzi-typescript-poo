@@ -1,20 +1,10 @@
+import { CreateCategoryDto } from '../dtos/category.dto';
 
 export interface Product {
-  id:          number;
-  title:       string;
-  price:       number;
+  id: number;
+  title: string;
+  price: number;
   description: string;
-  images:      string[];
-  creationAt:  string;
-  updatedAt:   string;
-  category:    Category;
+  images: string[];
+  category: CreateCategoryDto;
 }
-
-export interface Category {
-  id:         number;
-  name:       string;
-  image:      string;
-  creationAt: string;
-  updatedAt:  string;
-}
-
