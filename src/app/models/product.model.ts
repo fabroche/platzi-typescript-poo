@@ -1,4 +1,4 @@
-import { CreateCategoryDto } from '../dtos/category.dto';
+import { ICreateCategoryDto } from '../dtos/category.dto';
 
 export interface Product {
   id: number;
@@ -6,5 +6,5 @@ export interface Product {
   price: number;
   description: string;
   images: string[];
-  category: CreateCategoryDto;
+  category: ICreateCategoryDto;
 }

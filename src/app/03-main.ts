@@ -2,7 +2,7 @@ import { ProductHttpService } from './service/product-http.service';
 
 (async () => {
   try {
-    const url = '';
+    const url = 'https://api.escuelajs.co/api/v1/products';
     const productService = ProductHttpService.getService(url);
 
     // probando listar
