@@ -31,3 +31,4 @@ import { ProductHttpService } from './service/product-http-v2.service';
 
   console.log('Singleton :>> ', productService === productService2);
 })();
+
